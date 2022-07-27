@@ -1,3 +1,4 @@
+using _BikiniPunchBeachBattle3D.UI.Windows.Components;
 using RH.Utilities.ServiceLocator;
 using UnityEngine;
 
@@ -59,5 +60,19 @@ namespace _BikiniPunchBeachBattle3D.GameServices
 
         [Space]
         public double SweatThreshold = .3f;
+
+        [Space] 
+        public int StartPlaceMin = 10000;
+        public int StartPlaceMax = 15000;
+        public int ShiftPlaceMin = 20;
+        public int ShiftPlaceMax = 100;
+        public ScorePanel ScorePanelPrefab;
+        public string[] RandomNicknames;
+        public float ScrollTime = 1f;
+
+        public int RandomPlace => Random.Range(StartPlaceMin, StartPlaceMax);
+        public int RandomShift => Random.Range(ShiftPlaceMin, ShiftPlaceMax);
+
+        public string RandomNickName => RandomNicknames[Random.Range(0, RandomNicknames.Length)];
     }
 }

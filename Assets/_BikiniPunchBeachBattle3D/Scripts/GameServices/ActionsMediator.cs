@@ -130,10 +130,10 @@ namespace _BikiniPunchBeachBattle3D.GameServices
 
             if (_data.GetHealth(CharacterType.Opponent) <= 0f)
             {
-                if (!_data.IsOpponentPunchingBag)
+                if (!_data.IsOpponentPunchingBag && _data.CurrentDelayRoutine == null)
                     _data.SavableData.OpponentLevel++;
 
-                CoroutineLauncher.Start(InvokeOpponentsDefeatedEvent());
+                _data.CurrentDelayRoutine = CoroutineLauncher.Start(InvokeOpponentsDefeatedEvent());
             }
         }
 
@@ -150,7 +150,8 @@ namespace _BikiniPunchBeachBattle3D.GameServices
         private IEnumerator InvokeOpponentsDefeatedEvent()
         {
             yield return new WaitForSeconds(_configs.WinDelay);
-            
+
+            _data.CurrentDelayRoutine = null;
             _events.OpponentDefeated.Invoke();
         }
     }

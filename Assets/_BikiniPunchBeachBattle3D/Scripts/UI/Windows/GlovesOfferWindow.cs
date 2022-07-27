@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using _BikiniPunchBeachBattle3D.GameServices;
 using _BikiniPunchBeachBattle3D.Scripts.Domain;
 using _BikiniPunchBeachBattle3D.UI.Windows.Components;
@@ -7,7 +6,6 @@ using _Game.GameServices;
 using RH.Utilities.ServiceLocator;
 using UnityEngine;
 using UnityEngine.UI;
-using Random = UnityEngine.Random;
 
 namespace _BikiniPunchBeachBattle3D.UI.Windows
 {
@@ -27,7 +25,9 @@ namespace _BikiniPunchBeachBattle3D.UI.Windows
         private void OnEnable()
         {
             _configs ??= Services.Get<ConfigsService>();
+            _sceneRefs ??= Services.Get<SceneRefs>();
             _data ??= Services.Get<DataService>();
+            _actions ??= Services.Get<ActionsMediator>();
 
             _color = _configs.GlovesColors[Random.Range(0, _configs.GlovesColors.Length)];
 
@@ -35,13 +35,8 @@ namespace _BikiniPunchBeachBattle3D.UI.Windows
             ShowStats();
         }
 
-        private void Start()
-        {
-            _sceneRefs = Services.Get<SceneRefs>();
-            _actions = Services.Get<ActionsMediator>();
-            
+        private void Start() => 
             _buyButton.onClick.AddListener(Buy);
-        }
 
         private void OnDestroy() => 
             _buyButton.onClick.RemoveListener(Buy);
@@ -60,10 +55,8 @@ namespace _BikiniPunchBeachBattle3D.UI.Windows
         //         _actions.GoToMainHud(withOffer: false);
         //     });
 
-        private void ShowGlovesOnScreen()
-        {
-            
-        }
+        private void ShowGlovesOnScreen() => 
+            _sceneRefs.GlovesForOffer.SetColor(_color);
 
         private void ShowStats()
         {

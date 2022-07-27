@@ -11,5 +11,6 @@ namespace _BikiniPunchBeachBattle3D.GameServices
         public Transform WindowsCanvas;
         //public MaxAdsManager MaxAdsManager;
         public GlovesHolder PlayerGloves;
+        public GlovesForOffer GlovesForOffer;
     }
 }

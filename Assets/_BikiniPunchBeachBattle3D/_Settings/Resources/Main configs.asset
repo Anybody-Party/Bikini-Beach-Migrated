@@ -65,3 +65,52 @@ MonoBehaviour:
   - {r: 0.7075472, g: 0.010012442, b: 0.062403914, a: 1}
   StatIncreaseLevelsByGloves: 2
   WinDelay: 2
+  SweatThreshold: 0.30000001192092896
+  StartPlaceMin: 10000
+  StartPlaceMax: 15000
+  ShiftPlaceMin: 20
+  ShiftPlaceMax: 100
+  ScorePanelPrefab: {fileID: 3280751546198743037, guid: 372e5b91d9e8c334bae9f1f7c8bf60a2,
+    type: 3}
+  RandomNicknames:
+  - Bambi
+  - Diet Coke
+  - Big Mac
+  - Lil Girl
+  - Dumbledore
+  - Raindrop
+  - Diesel
+  - Redbull
+  - Dork
+  - ' Gator'
+  - ' Dearest'
+  - C-Dawg
+  - Bello
+  - Inchworm
+  - ' Creep'
+  - ' Oompa Loompa'
+  - ' Rambo'
+  - ' Lovey'
+  - ' Moose'
+  - ' Guapo'
+  - Grumpy
+  - ' Hammer'
+  - C-Dawg
+  - ' Speedy'
+  - Huggie
+  - Pookie
+  - Bruiser
+  - ' Admiral'
+  - Half Pint
+  - ' Sport'
+  - ' Pixie'
+  - ' Superman'
+  - Baby Boo
+  - Tomcat
+  - ' Flyby'
+  - ' Flyby'
+  - Harry Potter
+  - Chewbacca
+  - Daria
+  - Cookie Dough
+  ScrollTime: 1
