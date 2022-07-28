@@ -98,7 +98,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962472702511909989}
   serializedVersion: 2
-  m_Mass: 3.125
+  m_Mass: 1.0416666
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff4ee9f0cff46c69f6a5a52952d8975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterType: 1
+  _attackedByWho: 0
   _animator: {fileID: 5907096031183322391}
 --- !u!1 &1722359266129985236 stripped
 GameObject:
@@ -245,7 +245,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722359266129985236}
   serializedVersion: 2
-  m_Mass: 3.125
+  m_Mass: 1.0416666
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -280,7 +280,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1784156821212278311}
   serializedVersion: 2
-  m_Mass: 1.25
+  m_Mass: 0.25
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -362,7 +362,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3327986272801994133}
   serializedVersion: 2
-  m_Mass: 1.25
+  m_Mass: 0.25
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -444,7 +444,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3656787677126320862}
   serializedVersion: 2
-  m_Mass: 1.875
+  m_Mass: 0.375
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -526,7 +526,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3703942152128785139}
   serializedVersion: 2
-  m_Mass: 1.875
+  m_Mass: 0.375
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -608,7 +608,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4574220584732418771}
   serializedVersion: 2
-  m_Mass: 1.25
+  m_Mass: 0.25
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -690,7 +690,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5604952920436266069}
   serializedVersion: 2
-  m_Mass: 1.875
+  m_Mass: 0.375
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -772,7 +772,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6574461874721197462}
   serializedVersion: 2
-  m_Mass: 1.875
+  m_Mass: 0.375
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -854,7 +854,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7139613053033193249}
   serializedVersion: 2
-  m_Mass: 1.25
+  m_Mass: 0.25
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -936,7 +936,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9197851960049673146}
   serializedVersion: 2
-  m_Mass: 1.25
+  m_Mass: 0.25
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
