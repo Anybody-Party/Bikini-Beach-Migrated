@@ -34,10 +34,10 @@ namespace _BikiniPunchBeachBattle3D.GameServices
         public void BuyUpgrade(StatType statType)
         {
             int upgradePrice = _data.GetUpgradePrice(statType);
-            
-            _wallet.Remove(upgradePrice);
+
             _data.GetStatData(statType, CharacterType.Player).Level++;
-            
+            _wallet.Remove(upgradePrice);
+
             _events.Upgraded.Invoke(statType);
         }
 

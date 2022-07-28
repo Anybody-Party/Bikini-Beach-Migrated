@@ -810,7 +810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2802047154089246468
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1337,7 +1337,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scrollRect: {fileID: 5220424471127062356}
   _panelsParent: {fileID: 1807778562470578844}
-  ToPosition: 0
 --- !u!225 &4375493860012767843
 CanvasGroup:
   m_ObjectHideFlags: 0
