@@ -32,7 +32,8 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - SRPDEFAULTUNLIT
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -148,9 +149,9 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _RimEnabled: 0
-    - _SelfShadingSize: 0.5
+    - _SelfShadingSize: 0.62
     - _SelfShadingSizeExtra: 0.6
-    - _ShadowEdgeSize: 0.05
+    - _ShadowEdgeSize: 0.092
     - _ShadowEdgeSizeExtra: 0.05
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
@@ -171,7 +172,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.31332484, g: 0.13428432, b: 0.052794017, a: 1}
     - _Color: {r: 0.3133248, g: 0.13428429, b: 0.052793995, a: 1}
-    - _ColorDim: {r: 0.40784317, g: 0.48627454, b: 0.5686275, a: 1}
+    - _ColorDim: {r: 0.18867922, g: 0.07074806, b: 0.016909925, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}

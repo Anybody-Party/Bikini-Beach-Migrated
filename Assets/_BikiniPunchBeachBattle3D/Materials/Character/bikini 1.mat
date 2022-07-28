@@ -12,8 +12,8 @@ Material:
   m_ValidKeywords:
   - _CELPRIMARYMODE_SINGLE
   - _TEXTUREBLENDINGMODE_MULTIPLY
-  m_InvalidKeywords:
-  - _UNITYSHADOWMODE_NONE
+  - _UNITYSHADOWMODE_MULTIPLY
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -136,9 +136,9 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _RimEnabled: 0
-    - _SelfShadingSize: 0.5
+    - _SelfShadingSize: 0.65
     - _SelfShadingSizeExtra: 0.6
-    - _ShadowEdgeSize: 0.05
+    - _ShadowEdgeSize: 0.134
     - _ShadowEdgeSizeExtra: 0.05
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
@@ -149,7 +149,7 @@ Material:
     - _TextureBlendingMode: 0
     - _TextureImpact: 1
     - _UVSec: 0
-    - _UnityShadowMode: 0
+    - _UnityShadowMode: 1
     - _UnityShadowOcclusion: 0
     - _UnityShadowPower: 0.2
     - _UnityShadowSharpness: 1
@@ -157,9 +157,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.45150542, g: 0.5666586, b: 0.147008, a: 1}
+    - _BaseColor: {r: 0.6144942, g: 0.735849, b: 0.2880918, a: 1}
     - _Color: {r: 0.45150536, g: 0.56665856, b: 0.14700797, a: 1}
-    - _ColorDim: {r: 0.5849056, g: 0.42112306, b: 0.36197934, a: 1}
+    - _ColorDim: {r: 0.3557761, g: 0.5660378, b: 0.28568888, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
