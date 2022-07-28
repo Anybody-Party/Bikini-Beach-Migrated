@@ -47,7 +47,7 @@ namespace _BikiniPunchBeachBattle3D.Effects
                 collider.enabled = isActive;
 
             foreach (Rigidbody rigidbody in rigidbodies) 
-                rigidbody.velocity = Vector3.zero;
+                rigidbody.velocity = Vector3.forward + Vector3.right;
         }
     }
 }

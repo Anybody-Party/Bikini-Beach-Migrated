@@ -299,10 +299,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ApplyAfter: 1
-  m_ChannelMask: 0
-  m_Gain: 0
+  m_ChannelMask: -1
+  m_Gain: 0.15
   m_Use2DDistance: 0
-  m_UseCameraSpace: 0
+  m_UseCameraSpace: 1
   m_ReactionSettings:
     m_SecondaryNoise: {fileID: 0}
     m_AmplitudeGain: 0
@@ -1241,7 +1241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &456470566
 MonoBehaviour:
   m_ObjectHideFlags: 0
