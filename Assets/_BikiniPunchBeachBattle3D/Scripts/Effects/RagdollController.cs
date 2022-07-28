@@ -16,7 +16,7 @@ namespace _BikiniPunchBeachBattle3D.Effects
 
         private void Start()
         {
-            _colliders ??= GetComponentsInChildren<Collider>();
+            Disable();
             
             _events = Services.Get<EventsMediator>();
             _data = Services.Get<DataService>();
@@ -39,11 +39,15 @@ namespace _BikiniPunchBeachBattle3D.Effects
         private void SetActive(bool isActive)
         {
             _colliders ??= GetComponentsInChildren<Collider>();
+            var rigidbodies = GetComponentsInChildren<Rigidbody>();
             
             _animator.enabled = !isActive;
 
             foreach (Collider collider in _colliders) 
                 collider.enabled = isActive;
+
+            foreach (Rigidbody rigidbody in rigidbodies) 
+                rigidbody.velocity = Vector3.zero;
         }
     }
 }

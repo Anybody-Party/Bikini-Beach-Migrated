@@ -115,10 +115,10 @@ BoxCollider:
   m_GameObject: {fileID: 962472702511909989}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.12259044, y: 0.1813944, z: 0.12837206}
-  m_Center: {x: 0.0020373426, y: 0.09069721, z: 0.008244008}
+  m_Size: {x: 0.0871803, y: 0.12027846, z: 0.12837206}
+  m_Center: {x: 0.0095624495, y: 0.08295025, z: 0.008244008}
 --- !u!144 &1722972192184652610
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -179,7 +179,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451115577101147535}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 89ed1ff346ef178409cc735816672000, type: 2}
   m_CullingMode: 0
@@ -262,7 +262,7 @@ BoxCollider:
   m_GameObject: {fileID: 1722359266129985236}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.12365917, y: 0.074877635, z: 0.12828146}
   m_Center: {x: -0.0000000037252903, y: 0.010676034, z: 0.0022761784}
@@ -297,11 +297,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 1784156821212278311}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.035459857
-  m_Height: 0.14183943
+  m_Enabled: 1
+  m_Radius: 0.027188538
+  m_Height: 0.072681114
   m_Direction: 1
-  m_Center: {x: 0, y: 0.070919715, z: 0}
+  m_Center: {x: -0.00000028910682, y: 0.076260686, z: -0.008271336}
 --- !u!144 &7773094249328440575
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -379,7 +379,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 3327986272801994133}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.0064403983
   m_Height: 0.03220199
   m_Direction: 0
@@ -461,7 +461,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 3656787677126320862}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.041718673
   m_Height: 0.27513927
   m_Direction: 1
@@ -543,11 +543,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 3703942152128785139}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.06418706
-  m_Height: 0.29573753
+  m_Height: 0.21151552
   m_Direction: 1
-  m_Center: {x: 0.0117363185, y: 0.14786884, z: -0.012798201}
+  m_Center: {x: 0.011736486, y: 0.1458875, z: -0.012798498}
 --- !u!144 &3446806309947197704
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -625,11 +625,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 4574220584732418771}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.048653167
-  m_Height: 0.19461267
+  m_Height: 0.1199808
   m_Direction: 1
-  m_Center: {x: 0, y: 0.09730633, z: 0}
+  m_Center: {x: -0.00000039890338, y: 0.115036376, z: -0.00000018930588}
 --- !u!144 &1509760149525058390
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -707,11 +707,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 5604952920436266069}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.064315766
-  m_Height: 0.29573023
+  m_Enabled: 1
+  m_Radius: 0.04748228
+  m_Height: 0.19869366
   m_Direction: 1
-  m_Center: {x: 0.012280644, y: 0.14786394, z: -0.012122501}
+  m_Center: {x: 0.012280069, y: 0.19637911, z: 0.0047110333}
 --- !u!144 &2412585575169615839
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -789,11 +789,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 6574461874721197462}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.041810907
-  m_Height: 0.3026124
+  m_Height: 0.22879854
   m_Direction: 1
-  m_Center: {x: 0.013002363, y: 0.15130576, z: -0.020838825}
+  m_Center: {x: 0.01300199, y: 0.18821259, z: -0.020838782}
 --- !u!144 &9140279571759374785
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -871,7 +871,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 7139613053033193249}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.003054072
   m_Height: 0.01527036
   m_Direction: 0
@@ -953,7 +953,7 @@ SphereCollider:
   m_GameObject: {fileID: 9197851960049673146}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.040384095
   m_Center: {x: 0, y: 0.040384095, z: 0}
