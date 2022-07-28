@@ -12,8 +12,9 @@ namespace _BikiniPunchBeachBattle3D.GameServices
     public class DataService : IService
     {
         public SavableData SavableData = new();
-        public GameObject CurrentOpponentGO;
-        public float RageValue;
+        public GameObject CurrentOpponentGO { get; set; }
+        public float RageValue { get; set; }
+        public int LeaderboardPlace { get; set; }
 
         private readonly ConfigsService _configs;
         private readonly EventsMediator _events;
@@ -28,16 +29,18 @@ namespace _BikiniPunchBeachBattle3D.GameServices
 
         public bool InRageMode => 
             RageValue >= _configs.RageTreshholdValue;
-        
+
         public bool IsOpponentPunchingBag => 
             CurrentOpponentGO?.name.Contains("PunchingBag") ?? false;
 
         public bool IsNextOpponentBoss => 
             SavableData.OpponentLevel % 5 == 0 && SavableData.OpponentLevel != 0;
-        
+
         public bool IsPreviousOpponentBoss =>
             (SavableData.OpponentLevel - 1) % 5 == 0;
-        
+
+        public Coroutine CurrentDelayRoutine;
+
         public int GetStatValue(StatType type, CharacterType characterType) =>
             GetStatLevel(type, characterType) 
             * _configs.StatPerLevel

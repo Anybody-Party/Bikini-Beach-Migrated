@@ -11,11 +11,13 @@ namespace _BikiniPunchBeachBattle3D.Effects
     {
         private CinemachineImpulseSource _impulseSource;
         private EventsMediator _events;
+        private DataService _data;
 
         private void Start()
         {
             _impulseSource = GetComponent<CinemachineImpulseSource>();
             _events = Services.Get<EventsMediator>();
+            _data = Services.Get<DataService>();
         
             _events.PunchPerformed.AddListener(Shake);
         }
@@ -23,7 +25,10 @@ namespace _BikiniPunchBeachBattle3D.Effects
         private void OnDestroy() => 
             _events.PunchPerformed.RemoveListener(Shake);
 
-        private void Shake(CharacterType arg0, string side) => 
-            _impulseSource.GenerateImpulse();
+        private void Shake(CharacterType characterType, string side)
+        {
+            if (!_data.IsOpponentPunchingBag)
+                _impulseSource.GenerateImpulse();
+        }
     }
 }
